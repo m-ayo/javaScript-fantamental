@@ -30,7 +30,6 @@ console.log(str);
 
 let partOfstr = str.slice(2, 6);
 console.log(partOfstr);
-
 let annoyingLaugh = 'teehee so funny! teehee!';
 console.log(annoyingLaugh);
 
@@ -39,10 +38,37 @@ console.log(replacer);
 let song = "london calling";
 console.log(song);
 
-let park = 'Yellowstone';
-const index = parkindexOf(Stone);
-console.log(index);
+//template literals
+
+
+
+// let park = 'Yellowstone';
+// const index = park.indexOf(Stone);
+// console.log(index);
 
 let myName = 'mary\nminayo';
 console.log(myName);
 console.log('hello\'world');
+
+//template literals
+
+let totals = `We are ${20}`;
+console.log(totals);
+
+let cohortOne = 15;
+let cohortTwo = 20;
+
+let femidevs = `We are ${cohortOne + cohortTwo} in total`;
+console.log(femidevs);
+
+let drinks = 'soda';
+let quantity = 2;
+let price = 970;
+
+// We bought 2 crates of soda at kshs.1940
+let crates = `We bought 2 crates of soda at kshs ${quantity*price}`;
+console.log(crates);
+
+let people = `Femidevs community`;
+console.log(people)
+
