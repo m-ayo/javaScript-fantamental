@@ -15,34 +15,36 @@ else if (rating ===3) {
 };
 
 // Days in a week
-let days = 8;
+let days = 1;
+switch (days) {
+    case 1: console.log("Sunday");
+    break;
+    case 2: console.log("Monday");
+    break;
+    case 3: console.log("Tuesday");
+    break;
+    case 4: console.log("Wednesday");
+    break;
+    case 5: console.log("Thursday");
+    break;
+    case 6: console.log("Friday");
+    break;
+    case 7: console.log("Sarturday");
+    break;
+    
+    default:console.log(Invalid); // if condition does not meet
+};
 
-if (days=== 1) {
-    console.log("Sunday");
-}
-else if (days=== 2) {
-    console.log("Monday");
-}
-else if (days=== 3) {
-    console.log("Tuesday");
-}
-else if (days=== 4) {
-    console.log("Wednesday");
-}
-else if (days=== 5) {
-    console.log("Thursday");
+   
 
-}
-else if (days=== 6) {
-    console.log("Friday");
-}
+    
+    
+    
+    
 
-else if (days=== 7) {
-    console.log("Saturday");
-}
-else {
-    console.log("No valid day found");
-}
+
+
+
 
 //Declare password variable and give it a value;
 // use if statement to :
@@ -75,6 +77,17 @@ let javascript = 'hard';
 
  javascript === 'easy'? 'okey' : 'not true';
  console.log(javascript);
+
+ //TERNARY OPERATOR
+let newPerson = 'people';
+console.log(newPerson === 'names')?'REAL NAME' : 'WRONG NAME';
+
+// if (newPerson === 'femidevs') {
+//     console.log('REAL NAME');
+// }
+// else {
+//     console.log('WRONG NAME');
+// }
 
 
 

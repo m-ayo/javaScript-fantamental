@@ -46,7 +46,7 @@ console.log(song);
 // const index = park.indexOf(Stone);
 // console.log(index);
 
-let myName = 'mary\nminayo';
+let myName = 'mary\minayo';
 console.log(myName);
 console.log('hello\'world');
 
