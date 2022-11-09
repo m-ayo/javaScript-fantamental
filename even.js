@@ -12,7 +12,7 @@ else {
 
 even();
 
-//conversion of money
+//conversion of currency
 function currency() {
     let usDolla = 145;
     let KenyaShillings = 1000;

@@ -51,9 +51,80 @@ greeting('world');
 
 //finding avg
 function avg(x,y,z){
-    console.log(`4+ 8+ 10 ${avg/3}`);
+    console.log((3+ 6+ 9)/avg.length);
 
 };
 avg(4, 8, 1);
+//example2
+function avge(arr){
+    let sum = 0;
+    for(let r of arr){
+        sum += r;
+    console.log(sum);
+}
+const avarage = sum / arr.length;
+console.log(avarage);
+};
+avge([2,4,6,10]);
 
+//function findLargest
+function findLargest(x,y){
+    if (x>y){
+    console.log(`${x} is larger`);
+    }
+   else if (x<y) {
+    console.log(`${x} is larger`);
+}
+else{
+    console.log(`${x} and ${y} are equal`);
+}
+};
+findLargest(12, 10);
 
+//RETURN IN FUNCTION
+function add(x, y){
+    return x + y;
+    console.log('Hello World'); //wont be executed
+}
+const total= add(2,3);
+console.log(total);
+
+//function is purple
+function isPurple(color){
+    if(color =='purple'){
+        return true
+    }
+    else {
+        return false
+    
+    }
+};
+const color = isPurple('purple');//declaring a new variable to store a value
+console.log(color);
+
+//creating password
+
+//write a isValidPassword function
+//it accepts 2 parameters: password and username
+//password must:
+// -be at least 8 charecters
+// -can not contain spaces
+// -can not contain the username
+//if all requirements are met, return true.
+//otherwise: false
+
+function isValidPassword(password,username){
+    if(password.length >=8){
+        return true
+
+    }
+    if(password.indexOf(' ') === -1){
+        return true
+    }
+
+    if(password.indexOf(username)=== -1){
+        return true
+    }
+};
+const password = isValidPassword('minayo', 'mary');
+console.log(password);
