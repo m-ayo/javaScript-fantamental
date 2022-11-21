@@ -216,7 +216,49 @@ function repeatNTimes(action, num){
      }
 }
 repeatNTimes(rage, 13);
+//hoisting
+console.log(add(2, 3));
+function add(x, y){
+    return x+y;
+};
+function add(x, y){
+    return x+y;
+};
 
+function multiply(x, y){
+    return x*y;
+};
+function divide(x, y){
+    return x/y;
+};
+function subtract(x, y){
+    return x-y;
+};
 
+//first way
+// const students = {
+//    age : add
+// };
+// console.log (students.age(2, 3));
 
+// const person = {
+//     age : multiply
+// };
+// console.log (person.age(2, 3));
 
+// const people = {
+//     age : divide
+// };
+// console.log (people.age(2, 3));
+
+// const children = {
+//     age : subtract
+// };
+// console.log (children.age(2, 3));
+
+//second way
+const students = [add, subtract, multiply, divide];
+for (let arr1 of students){
+    let arr2 = arr1(2,3);
+    console.log(arr2);
+}
